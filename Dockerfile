@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.5.2
+ENV VERSION=0.1.5
 
 RUN gem install ambition --version ${VERSION} --no-format-exec
 
